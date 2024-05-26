@@ -2,105 +2,124 @@ import React from "react";
 //icons
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+
 // img
-import corpcommentImg from "../assets/corpcomment.png";
-import rmtdevImg from "../assets/rmtdev.png";
-import wordanalyticsImg from "../assets/wordanalytics.png";
+import imageClassroom1 from '../assets/imageClassroom1.png';
+import imageComic2 from '../assets/imageComic2.png';
+import imageNoteapp1 from '../assets/imageNoteapp1.png';
+import imageCyto1 from '../assets/imageCyto1.png';
 
 export const links = [
   {
     name: "Home",
+    ofset: -200
   },
   {
     name: "About",
+    ofset: -340
   },
   {
     name: "Projects",
+    ofset: -200
   },
   {
     name: "Skills",
+    ofset: -480
   },
   {
     name: "Experience",
+    ofset: -280
   },
   {
     name: "Contact",
+    ofset: -200
   },
-  
 ];
 
 export const experiencesData = [
-  { 
-    role:"Student",
+  {
+    role: "Student",
     title: "Graduated Ssru University",
-    location: "Miami, FL",
+    location: "Suan Sunandha Rajabhat",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer. I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    date: "2021 - present",
-    tags: ["React","Tailwind", "Redux"],
+      "During my studies, I developed web applications as part of my final project, focusing on MVC architecture, Figma for design, Node.js for RESTful APIs, and database design. Collaborated on bug fixing and performance enhancements.",
+    date: "2020 - present",
+    tags: ["React","Redux","Bootstrap","Node.js","MySQL","Stored Procedure"],
     icon: React.createElement(LuGraduationCap),
   },
   {
-    role:"Intern",
+    role: "Intern",
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "EdVISORY",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    date: "2024 mar-jun",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "I'm interned as a Full-Stack Developer, focusing on developing Headless CMS web applications. I utilized Next.js to fetch data from WordPress and display it. Technologies involved included Next.js, TypeScript, Tailwind, Redux, WordPress, and GraphQL. Additionally, I gained experience in CI/CD systems and Version Control. I'm ready to apply these skills in a full-time role.",
+    date: "2024 Dec-Mar",
+    tags: ["Next.js","TypeScript","Tailwind","WordPress","GraphQL","GitLab"],
     icon: React.createElement(CgWorkAlt),
   },
 ];
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Classroom Reservation",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    "An online system for booking classrooms developed over 2 years. Using RESTful API, it features a scheduling algorithm to find available rooms for teachers and students.",
+    tags: ["React","Redux","Bootstrap", "Ant design","Node.js","MySQL","Stored Procedure","Jsonwebtoken"],
+    imageUrl1: imageClassroom1,
+    UrlDemo:"",
+    UrlGithub:"https://github.com/aoneaonedev2001/classroom-reservation"
   },
   {
-    title: "Api games",
+    title: "90s ComicMotion ",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Comic App, built with React and Tailwind CSS, offers an immersive comic reading experience. With captivating animations and a dark mode feature.",
+    tags: ["React", "Tailwind", "framer-motion"],
+    imageUrl1: imageComic2,
+    UrlDemo:"",
+    UrlGithub:"https://github.com/aoneaonedev2001/comics-app"
   },
   {
-    title: "rmtDev",
+    title: "Note App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    "Note App offers streamlined note management for efficient organization. Seamlessly integrating various technologies, users can effortlessly create, edit, and delete notes.",
+    tags: ["React","Redux","Bootstrap", "Node.js", "Express","MySQL"],
+    imageUrl1: imageNoteapp1,
+    UrlDemo:"",
+    UrlGithub:"https://github.com/aoneaonedev2001/Note-app" 
   },
   {
-    title: "Word Analytics",
+    title: "Crypto Api",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    "A public web app that provides access to various cryptocurrency data sources, facilitating easy access to real-time crypto information and analytics.",
+    tags: ["React","axios","react router dom"],
+    imageUrl1: imageCyto1,
+    UrlDemo:"",
+    UrlGithub:"https://github.com/aoneaonedev2001/crypto-api"
   },
 ];
-
+ 
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "Redux",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Git",
+  "GitLab",
+  "Tailwind",
+  "Bootstrap",
+  "Ant design",
+  "MongoDB",
+  "MySQL",
+  "Stored Procedure",
+  "GraphQL",
+  "Java OOP",
+  "WordPress",
+  "Figma",
+  "Postman",
+  "Docker"
 ];
