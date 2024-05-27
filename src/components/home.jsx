@@ -40,7 +40,7 @@ const Home = () => {
             variants={Container(1)}
             initial={"hidden"}
             animate={"visible"}
-            className="font-light sm:text-center text-base text-[#111827] sm:text-sm md:text-sm"
+            className="font-light  sm:text-center text-base text-[#111827] sm:text-sm md:text-sm"
           >
             <p>
               I am a passionate and skilled web developer specializing in
@@ -82,7 +82,7 @@ const Home = () => {
             </a>
             <a
               className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack"
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aonedev2001/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -105,7 +105,7 @@ const Home = () => {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="w-[424px]  h-[495px] sm:w-[276px] sm:h-[339px]  md:h-[400px] "
+          className="w-[424px]  h-[495px] sm:w-[276px] sm:h-[339px]  md:h-[400px] mb-[135px] md:mb-[93px] sm:mb-[10px]"
         />
       </div>
     </section>
