@@ -66,7 +66,7 @@ export const projectsData = [
     "An online system for booking classrooms developed over 2 years. Using RESTful API, it features a scheduling algorithm to find available rooms for teachers and students.",
     tags: ["React","Redux","Bootstrap", "Ant design","Node.js","MySQL","Stored Procedure","Jsonwebtoken"],
     imageUrl1: imageClassroom1,
-    UrlDemo:"",
+    UrlDemo:"https://classroom-reservation-alpha.vercel.app/",
     UrlGithub:"https://github.com/aoneaonedev2001/classroom-reservation"
   },
   {
@@ -75,7 +75,7 @@ export const projectsData = [
       "Comic App, built with React and Tailwind CSS, offers an immersive comic reading experience. With captivating animations and a dark mode feature.",
     tags: ["React", "Tailwind", "framer-motion"],
     imageUrl1: imageComic2,
-    UrlDemo:"",
+    UrlDemo:"https://comics-app-seven.vercel.app/",
     UrlGithub:"https://github.com/aoneaonedev2001/comics-app"
   },
   {
@@ -84,7 +84,7 @@ export const projectsData = [
     "Note App offers streamlined note management for efficient organization. Seamlessly integrating various technologies, users can effortlessly create, edit, and delete notes.",
     tags: ["React","Redux","Bootstrap", "Node.js", "Express","MySQL"],
     imageUrl1: imageNoteapp1,
-    UrlDemo:"",
+    UrlDemo:"https://note-kk71ldv54-aones-projects-33da131d.vercel.app/register",
     UrlGithub:"https://github.com/aoneaonedev2001/Note-app" 
   },
   {
@@ -93,7 +93,7 @@ export const projectsData = [
     "A public web app that provides access to various cryptocurrency data sources, facilitating easy access to real-time crypto information and analytics.",
     tags: ["React","axios","react router dom"],
     imageUrl1: imageCyto1,
-    UrlDemo:"",
+    UrlDemo:"https://crypto-api-rouge.vercel.app/",
     UrlGithub:"https://github.com/aoneaonedev2001/crypto-api"
   },
 ];
@@ -121,5 +121,6 @@ export const skillsData = [
   "WordPress",
   "Figma",
   "Postman",
-  "Docker"
+  "Docker",
+  "cloud aws"
 ];

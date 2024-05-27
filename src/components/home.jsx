@@ -105,7 +105,7 @@ const Home = () => {
           initial={{ opacity: 0, x: 100 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 1.2 }}
-          className="w-[400px]  h-[500px] sm:w-[276px] sm:h-[339px]  md:h-[400px] "
+          className="w-[424px]  h-[495px] sm:w-[276px] sm:h-[339px]  md:h-[400px] "
         />
       </div>
     </section>
