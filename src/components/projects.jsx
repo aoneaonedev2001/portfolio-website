@@ -51,13 +51,13 @@ const ProjectCard = ({ title, description, tags, imageUrl1,UrlDemo,UrlGithub }) 
     >
       <div className="w-[50%] flex flex-col justify-between  p-[27px] md:p-[30px] sm:p-[10px]">
         <h3 className="text-2xl sm:text-lg font-semibold">{title}</h3>
-        <p className="mt-3 md:mb-[0px] sm:mt-1 sm:text-[11px] sm:mb-[5px] mb-[20px] leading-relaxed text-gray-700 dark:text-white/70">
+        <p className="mt-3 md:mb-[0px] sm:mt-1 sm:text-[11px] sm:mb-[5px] mb-[20px] leading-relaxed text-gray-700 ">
           {description}
         </p>
         <ul className="flex flex-wrap mt-4 sm:mt-1 gap-2 sm:gap-1 md:gap-1">
           {tags.map((tag, index) => (
             <li
-              className="sm:hidden bg-black/[0.7] px-3 py-1 text-[0.7rem] sm:text-[0.5rem] uppercase tracking-wider text-white rounded-full dark:text-white/70"
+              className="sm:hidden bg-black/[0.7] px-3 py-1 text-[0.7rem] sm:text-[0.5rem] uppercase tracking-wider text-white rounded-full "
               key={index}
             >
               {tag}

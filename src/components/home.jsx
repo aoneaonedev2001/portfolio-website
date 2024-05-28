@@ -73,7 +73,7 @@ const Home = () => {
             </Link>
 
             <a
-              className="group bg-white sm:px-3 sm:py-2 px-7 py-3 md:px-4 md:py-2 flex items-center gap-2 rounded-[5px] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+              className="group bg-white sm:px-3 sm:py-2 px-7 py-3 md:px-4 md:py-2 flex items-center gap-2 rounded-[5px] outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack "
               href="/CV.pdf"
               download
             >
