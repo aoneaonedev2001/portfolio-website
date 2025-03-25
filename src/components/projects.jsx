@@ -47,9 +47,9 @@ const ProjectCard = ({ title, description, tags, imageUrl1,UrlDemo,UrlGithub }) 
         scale: scaleProgess,
         opacity: opacityProgess,
       }}
-      className="flex flex-row w-[680px]  sm:w-[400px]  border border-black/5 mx-auto  bg-white rounded-[20px] my-[50px]"
+      className="flex flex-row w-[680px]   sm:w-[100%]  border border-black/5 mx-auto  bg-white rounded-[20px] my-[50px]"
     >
-      <div className="w-[50%] flex flex-col justify-between  p-[27px] md:p-[30px] sm:p-[10px]">
+      <div className="w-1/2 sm:w-[45%] flex flex-col justify-between  p-[27px] md:p-[30px] sm:p-[10px]">
         <h3 className="text-2xl sm:text-lg font-semibold">{title}</h3>
         <p className="mt-3 md:mb-[0px] sm:mt-1 sm:text-[11px] sm:mb-[5px] mb-[20px] leading-relaxed text-gray-700 ">
           {description}
@@ -88,7 +88,7 @@ const ProjectCard = ({ title, description, tags, imageUrl1,UrlDemo,UrlGithub }) 
         <motion.img
           src={imageUrl1}
           alt="all project"
-          className="cover w-1/2 h-[100%] sm:w-[230px] sm:h-[250px]  rounded-2xl border border-black/5"
+          className="cover w-1/2 h-[100%] sm:w-[55%] sm:h-[250px]  rounded-2xl border border-black/5"
         />
     </motion.div>
   );

@@ -47,12 +47,12 @@ const Home = () => {
               creating
             </p>
             <p>
-              efficient and user-friendly web applications. With over 2 years of
+              efficient and user-friendly web applications. With over 3 years of
             </p>
             <p>
               experience, I have honed my expertise in various technologies such
             </p>
-            <p>as React, Next.js, Node.js, MySQL, and MongoDB.</p>
+            <p>as React, React Native, Next.js, Node.js, MySQL, and MongoDB.</p>
           </motion.div>
           <motion.div
             variants={Container(1.5)}

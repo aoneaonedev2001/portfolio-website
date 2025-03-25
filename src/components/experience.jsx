@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section
       name="Experience"
-      className="mb-28 sm:mb-[50px] mt-[200px] sm:mt-[100px]"
+      className="mb-28 sm:mb-[50px] mt-[200px] sm:mt-[100px] overflow-hidden"
     >
       <motion.h3
         initial={{ opacity: 0, y: 100 }}

@@ -104,9 +104,11 @@ export const skillsData = [
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Redux",
   "Next.js",
   "Node.js",
+  "Redis",
   "Express",
   "Git",
   "GitLab",
@@ -121,6 +123,7 @@ export const skillsData = [
   "WordPress",
   "Figma",
   "Postman",
+  "OAuth 2.0",
   "Docker",
   "cloud aws"
 ];

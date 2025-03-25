@@ -15,7 +15,7 @@ const Contact = () => {
         Contact
       </motion.h3>
       <h3 className="mb-[20px]">aonedev2001@gmail.com</h3>
-      <h3 className="mb-[20px]">0648525471</h3>
+      <h3 className="mb-[20px]">0991177188</h3>
       <h3 className="mb-[20px]">Bangkok Thailand</h3>
     </div>
   );
